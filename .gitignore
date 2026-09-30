@@ -1,0 +1,25 @@
+# OS / IDE
+.DS_Store
+.idea/
+*.iml
+out/
+
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+*.local.yml
+
+# Frontend
+node_modules/
+frontend/dist/
+coverage/
+
+# Claude Code: personal settings only
+.claude/settings.local.json
