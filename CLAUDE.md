@@ -174,7 +174,10 @@ CSRF в SPA-режиме, `DelegatingPasswordEncoder`, rate limiting логин�
 Learning Engine, репозитории, Spring-конфиг, всё `internal`) · `card-web` (REST, Security, OpenAPI) ·
 `card-mcp` (MCP server, Post-MVP) · `card-bootstrap` (composition root). Kotlin `explicitApi()`.
 
-Первоисточники — файлы в `docs/`. При расхождении с этой выжимкой верны `docs/`, а выжимку надо обновить.
+Первоисточники лежат в `docs/spec/` (оглавление в `docs/README.md`). При расхождении с этой выжимкой верны они, а выжимку надо обновить.
+В обсуждениях и issues они называются так: «Описание» = `docs/spec/project-overview.md`,
+«Спецификация» = `docs/spec/feature-spec.md`, «Функциональные фичи» = `docs/spec/business-features.md`.
+Имена файлов в репозитории — только ASCII в kebab-case, содержимое документов — на русском.
 
 ## 4. Roadmap MVP (предложен мной, утверждается с пользователем)
 
@@ -230,9 +233,9 @@ Post-MVP (после релиза для семьи): Transactional Outbox на 
 
 - **Дата обновления:** 2026-09-30
 - **Этап:** 0 (решения), milestone #1. Кода нет, `git init` сделан (ветка `main`), коммитов пока нет. GitHub-репозиторий пока пустой.
+- **Первый коммит запушен (2026-09-30).** Ruleset `main protection` активен: только PR (squash), без force-push и удаления, линейная история. Required checks добавим после CI (#24).
 - **GitHub настроен (2026-09-25):** только squash merge, автоудаление веток, auto-merge, Wiki выключена, Dependabot alerts
   и security updates, private vulnerability reporting, Actions только GitHub-owned и verified с обязательным пиннингом по SHA, topics.
-  Ruleset на `main` создам после первого push (#14), required checks после CI (#24).
 - **Трекер:** 13 milestones, issues #1–#27, Kanban: https://github.com/users/dml-leto/projects/5.
   Workflows доски (настраиваются только в UI): включены `Auto-add to project` (`is:issue`), `Auto-add sub-issues`, `Item closed` → Done,
   `Pull request linked to issue` → In Review. `Pull request merged` выключен намеренно.
