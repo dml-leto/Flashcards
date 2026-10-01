@@ -1,0 +1,4 @@
+# Issues are created only from templates.
+# GitHub adds the "Report a security vulnerability" link itself, because SECURITY.md exists
+# and private vulnerability reporting is enabled.
+blank_issues_enabled: false
