@@ -5,7 +5,8 @@ Decisions live in `docs/decisions/`. The rules, the index and the template are i
 - One decision = one file `fc-<N>-adr-<slug>.md`, where `FC-<N>` is the GitHub issue the decision was made in. Non-architecture decisions drop `adr-`.
 - The title starts with the ID: `# FC-<N> · ADR: Title`.
 - The document is written in Russian; the slug is English kebab-case.
-- An accepted decision is never rewritten. A change is a new document with `Supersedes FC-<N>`, and the old one gets `Superseded by FC-<M>`.
+- The document records only *why*: a few sentences of context, what was decided and why. The rule itself goes to `CLAUDE.md` in the same change, never only into the decision.
+- An accepted decision is never rewritten except for its status line (`accepted`, `superseded by FC-<M>`, `accepted, уточнено FC-<M>`). A change is a new document that names the one it replaces.
 - Adding the row to the index in `docs/decisions/README.md` is part of the same change.
 
 If there is no `type:decision` issue for this decision yet, propose creating one instead of writing the document straight away.
