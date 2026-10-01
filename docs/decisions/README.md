@@ -15,9 +15,10 @@
 
 | ID | Тип | Решение | Статус | Дата |
 |---|---|---|---|---|
-| [FC-1](fc-1-work-process.md) | Процесс | Процесс работы: последовательные задачи, поток статусов, типы задач, ID `FC-N`, планирование milestones | Accepted | 2026-10-01 |
+| [FC-1](fc-1-work-process.md) | Процесс | Процесс работы: последовательные задачи, поток статусов, типы задач, ID `FC-N`, планирование milestones | Accepted, уточнено FC-32 | 2026-10-01 |
 | [FC-2](fc-2-adr-frontend-framework.md) | ADR | Фронтенд: Vue 3 + TypeScript + Vite + PrimeVue, SPA на том же origin | Accepted | 2026-09-26 |
 | [FC-3](fc-3-adr-authentication.md) | ADR | Аутентификация: серверная сессия (Spring Session JDBC) + HttpOnly cookie | Accepted | 2026-09-26 |
+| [FC-32](fc-32-task-order.md) | Процесс | Следующая задача — первая незакрытая в «План» milestone; workflows `Auto-close issue` и `Item reopened` | Accepted | 2026-10-01 |
 | [FC-4](https://github.com/dml-leto/Flashcards/issues/4) | Продукт | Лицензия FSL-1.1-ALv2, правообладатель `dml-leto` (решение в issue, отдельного документа нет) | Accepted | 2026-09-25 |
 
 ## Шаблон ADR
