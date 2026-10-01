@@ -9,7 +9,7 @@
 ## Стек
 - **Backend:** Kotlin, Spring Boot, PostgreSQL (JSONB), Flyway, Testcontainers
 - **Frontend:** Vue 3, TypeScript, Vite, PrimeVue
-- **Решения:** [docs/adr](docs/adr/README.md)
+- **Решения:** [docs/decisions](docs/decisions/README.md)
 
 ## Лицензия
 [FSL-1.1-ALv2](LICENSE): код можно читать, изучать, изменять и использовать для любых целей,

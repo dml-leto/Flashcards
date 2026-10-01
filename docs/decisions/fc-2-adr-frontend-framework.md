@@ -1,8 +1,8 @@
-# 0001. Фронтенд: Vue 3 + TypeScript + Vite + PrimeVue, SPA на том же origin
+# FC-2 · ADR: Фронтенд: Vue 3 + TypeScript + Vite + PrimeVue, SPA на том же origin
 
 - **Статус:** Accepted
 - **Дата:** 2026-09-26
-- **Issue:** [#2](https://github.com/dml-leto/Flashcards/issues/2)
+- **Issue:** FC-2 ([#2](https://github.com/dml-leto/Flashcards/issues/2))
 
 ## Контекст
 - Фронтенд целиком пишет Claude. Пользователь, backend-разработчик на Kotlin/Java, должен уметь вносить мелкие правки
@@ -19,7 +19,7 @@
 - **Тесты:** Vitest + Vue Testing Library, позже Playwright для e2e (Этап 8).
 - **Адаптивность:** mobile-first вёрстка, PWA-манифест (установка на домашний экран), TTS через Web Speech API.
 - **Раздача:** с того же origin, что и API. В dev через Vite proxy `/api` → `localhost:8080`, в prod через reverse proxy.
-  CORS не нужен, cookie-сессия (ADR-0002) работает без `SameSite=None`.
+  CORS не нужен, cookie-сессия (FC-3) работает без `SameSite=None`.
 
 ## Рассмотренные альтернативы
 - **React + Tailwind/shadcn:** крупнейшая экосистема, но модель хуков (`useEffect`, зависимости) и JSX хуже читаются

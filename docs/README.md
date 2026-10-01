@@ -7,5 +7,5 @@
 | [feature-spec.md](spec/feature-spec.md) | Спецификация фич MVP и Post-MVP: правила, лимиты, ограничения | Разработка, единый источник правды для MVP |
 | [business-features.md](spec/business-features.md) | Функциональные фичи с точки зрения пользователя и бизнеса, статус вхождения в MVP | Продукт |
 
-## Решения (`adr/`)
-Architecture Decision Records: [реестр и шаблон](adr/README.md).
+## Решения (`decisions/`)
+Принятые решения (ADR, продуктовые, процессные): [индекс и шаблон](decisions/README.md).
