@@ -38,6 +38,10 @@ shell не проверяются), поэтому правило выше со�
 или контракт неудобен, я не правлю бэкенд, а оформляю запрос пользователю: какой endpoint нужен, какой DTO и почему.
 Это заодно тренирует навык API design. Пока бэкенда нет, фронтенд работает на моках (MSW) по согласованному контракту.
 
+**Скилы проекта** в `.claude/skills/` (из [mattpocock/skills](https://github.com/mattpocock/skills), адаптированы, FC-34):
+`/grill-me` для `decision`-задач, `domain-modeling` для глоссария `docs/glossary.md` и решений в `docs/decisions/`,
+`codebase-design`, `diagnosing-bugs`, `/wait-what`.
+
 - Общение на русском. Термины индустрии оставляю на английском (outbox, idempotency, IDOR и т.д.).
 - **Комментарии в файлах проекта пишутся только на английском**: код, конфиги (`.gitignore`, `.editorconfig`,
   `.gitattributes`, Gradle, YAML), скрипты и фронтенд. На ревью отмечаю русские комментарии как ⚪ nit.
