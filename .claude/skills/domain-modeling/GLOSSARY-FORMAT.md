@@ -1,4 +1,4 @@
-# docs/glossary.md Format
+# `<internal docs repo>/product/glossary.md` Format (location: CLAUDE.md)
 
 ## Structure
 
@@ -7,7 +7,7 @@ The glossary is written in Russian. Each term carries its English name, which is
 ```md
 # Глоссарий
 
-Единый язык проекта: термины домена и их имена в коде. Подробности о поведении — в `docs/spec/`.
+Единый язык проекта: термины домена и их имена в коде. Подробности о поведении — в спецификации (`product/`).
 
 ## Контент
 

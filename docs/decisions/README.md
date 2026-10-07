@@ -24,6 +24,7 @@
 | [FC-3](fc-3-adr-authentication.md) | ADR | Аутентификация: серверная сессия (Spring Session JDBC) + HttpOnly cookie | Accepted | 2026-09-26 |
 | [FC-32](fc-32-task-order.md) | Процесс | Следующая задача — первая незакрытая в «План» milestone; workflows `Auto-close issue` и `Item reopened` | Accepted | 2026-10-01 |
 | [FC-15](fc-15-conventions.md) | Процесс | Правила только в `CLAUDE.md`, решения хранят только «почему»; метки `type:*`/`area:*`; стандартные типы Conventional Commits без scope; шаблоны issue и PR в Markdown | accepted | 2026-10-01 |
+| [FC-37](fc-37-internal-docs.md) | Процесс | Публичный `docs/` — продуктовая документация и короткие ADR; спецификация, планы и устройство сервиса — в отдельном приватном репозитории | accepted | 2026-10-07 |
 | [FC-4](https://github.com/dml-leto/Flashcards/issues/4) | Продукт | Лицензия FSL-1.1-ALv2, правообладатель `dml-leto` (решение в issue, отдельного документа нет) | Accepted | 2026-09-25 |
 
 ## Шаблон
