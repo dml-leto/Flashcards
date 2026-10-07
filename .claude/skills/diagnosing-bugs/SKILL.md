@@ -7,7 +7,7 @@ description: Diagnosis loop for hard bugs and performance regressions. Use when 
 
 A discipline for hard bugs. Skip phases only when explicitly justified.
 
-When exploring the codebase, read the internal docs (`product/glossary.md` and `architecture/`, if they exist) to get a clear mental model of the relevant modules, and check decisions in `docs/decisions/` in the area you're touching.
+When exploring the codebase, read `<internal docs repo>/product/glossary.md` and `<internal docs repo>/architecture/` (location: CLAUDE.md), if they exist, to get a clear mental model of the relevant modules, and check decisions in `docs/decisions/` in the area you're touching.
 
 In this repo the user writes backend code (`CLAUDE.md`, section 0). For a backend bug, run Phases 1–4 with the user, then propose the fix and the regression test instead of editing `card-*` code, unless the user explicitly asked you to fix it. Frontend bugs (`frontend/`) you fix yourself.
 

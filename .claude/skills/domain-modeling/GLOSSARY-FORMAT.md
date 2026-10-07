@@ -1,4 +1,4 @@
-# product/glossary.md Format (internal docs repo)
+# `<internal docs repo>/product/glossary.md` Format (location: CLAUDE.md)
 
 ## Structure
 
