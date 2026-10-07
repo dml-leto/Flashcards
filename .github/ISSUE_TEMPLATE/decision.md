@@ -1,6 +1,6 @@
 ---
 name: Проработка (decision)
-about: Вопрос, который нужно решить до старта этапа. Результат — документ в docs/decisions/
+about: Вопрос, который нужно решить до старта этапа. Результат — запись во внутренней документации, для общих решений — ADR в docs/decisions/
 title: "FC-? · "
 labels: ["type:decision"]
 ---
@@ -20,14 +20,14 @@ labels: ["type:decision"]
      No trade-offs or options here: they appear during the work and go to the result document. -->
 
 ## Результат
-<!-- Path to the result document and which tasks to create or update. -->
-`docs/decisions/fc-N-[adr-]slug.md`
+<!-- Where the decision is recorded (internal docs page; public ADR only for general decisions) and which tasks to create or update. -->
+Страница внутренней документации: …
 
 ## Шаги
 1.
 
 ## Критерии приёмки (DoD)
-- [ ] Документ решения и строка в индексе `docs/decisions/README.md`
+- [ ] Решение записано во внутренней документации; для общего решения — ADR и строка в индексе `docs/decisions/README.md`
 - [ ] Правила, которые меняет решение, обновлены в `CLAUDE.md`
 - [ ] Задачи, которые разблокирует решение, созданы или обновлены
 
