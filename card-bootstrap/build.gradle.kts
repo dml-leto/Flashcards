@@ -11,7 +11,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation(kotlin("reflect"))
-    
+
     implementation(project(":card-web"))
     implementation(project(":card-core"))
     implementation(project(":card-persistence"))
